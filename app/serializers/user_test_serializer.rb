@@ -1,4 +1,4 @@
 class UserTestSerializer < ActiveModel::Serializer
-  attributes :id, :result_both, :date, :notes
+  attributes :id, :result_both, :date, :notes, :test_id
 end
 
