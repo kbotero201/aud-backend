@@ -26,7 +26,7 @@ class Api::V1::UserTestsController < ApplicationController
     end 
 
     def test_params
-      params.require(:user_test).permit(:user_id, :test_id, :date, {:result_both =>[]} , :id)
+      params.require(:user_test).permit(:user_id, :test_id, :date, {:result_both =>[]} ,:id, {:notes =>[]})
     end 
 
 end
